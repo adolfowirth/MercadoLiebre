@@ -1,0 +1,160 @@
+@import url(/css/normalize.css);
+
+.logo {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+#busqueda{
+    margin-top: 10px;
+    margin-left: 2em;
+}
+.lupa{
+    margin-left: 2em;
+    margin-top: 0.5%;
+    border: 1px solid black;
+    background-color:ghostwhite;
+}
+
+p {
+    font-size: 12px;
+}
+
+#compraCuotas{
+    text-align: center;
+}
+
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+header{
+    background-color: var(--Amarillo);
+    
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+ul li{
+    list-style-type: none;
+  }
+
+.burger-menu{
+    text-align: center;
+    border: 1px solid #1259c3;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 3px;
+    background-color: #1259c3;
+    color: white;
+    margin: auto;
+    
+    }
+
+nav ul li a{
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+main{
+    background-color: #ebebeb;
+}
+
+main section{
+    text-align: center;
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+}
+
+article{
+    margin-bottom: 10px;
+    border-bottom: 8px solid #ebebeb;
+}
+
+article div{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: left;
+}
+
+.envio{
+    color: #39b54a;
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+    border: 1px solid #39b54a;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.titulares{
+    font-size: 24px;
+    margin-top: 0%;
+}
+
+.precios {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.descuentos{
+font-size: 12px;
+text-align: left;
+margin-top: 1%;
+color: #39b54a;
+}
+
+.descripciones{
+    font-size: 16px;
+    text-align: left;
+}
+
+.banner{
+    width: 100vw;
+}
+
+.imagen{
+    width: 70vw;
+}
+
+footer{
+    text-align: center;
+}
+.icono{
+    
+    color: hsl(211, 84%, 47%);
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 130%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+.subtitulo{
+    margin-top: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 10%;
+    font-size: 100%;
+    
+}
