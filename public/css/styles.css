@@ -1,28 +1,19 @@
 @import url(/css/normalize.css);
+@import url(/css/form.css);
 
-.logo {
-    width: 300px;
-    margin-left: 2em;
-    margin-top: 1em;
-}
-#busqueda{
-    margin-top: 10px;
-    margin-left: 2em;
-}
-.lupa{
-    margin-left: 2em;
-    margin-top: 0.5%;
-    border: 1px solid black;
-    background-color:ghostwhite;
+*{
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+
 }
 
-p {
-    font-size: 12px;
-}
+*{
+    box-sizing: border-box;
+ }
 
-#compraCuotas{
-    text-align: center;
-}
+ p{
+     font-size: 12px;
+ }
 
 :root {
     --Amarillo: #EAC926;
@@ -33,128 +24,393 @@ p {
     --Verde: #39b54a;
 }
 
+.main-header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
 header{
     background-color: var(--Amarillo);
-    
+     padding-bottom: 10px;
+     width: 100vw;
+     
 }
 
-body {
-    font-family: 'Roboto Slab', serif;
+.icono-header{
+    width: 30%;
+    text-align: right;
+}
+
+.logo {
+    width: 40vw;
+    margin-left: 5%;
+    margin-top: 0%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#busqueda{
+    margin-top: 10px;
+    margin-left: 2em;
+    width: 40vw;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 40%;
+}
+
+
+
+
+#compraCuotas{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
 }
 
 ul li{
     list-style-type: none;
-  }
+    padding-left: 20px;
+}
 
 .burger-menu{
     text-align: center;
     border: 1px solid #1259c3;
     width: 40px;
     font-size: 30px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: #1259c3;
     color: white;
     margin: auto;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    nav ul li a{
+        margin-left: 0px;
+        text-decoration: none;
+        color: black;
+    }
     
+    ul{
+        padding-left: 5%;
+        margin-bottom: 10px;
+        padding-right: 5%;
+    }
+    
+    .rigth-navbar{
+        margin-right: 15px;
+
     }
 
-nav ul li a{
-    margin-left: 0px;
-    text-decoration: none;
-}
+    .left-navbar{
+        margin-left: 5px;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    main{
+        background-color: #ebebeb;
+             
+    }
 
-ul{
-    padding-left: 15px;
-}
+    #banner{
+        width: 100vw;
+    }
+    
+    main section{
+        text-align: center;
+        width: 90vw;
+        background-color: white;
+        margin: auto;
+    }
+    
+    article{
+        margin-bottom: 10px;
+        border-bottom: 8px solid #ebebeb; 
+    }
+    
+    article div{
+        /* border-top: 2px solid #ebebeb; */
+        padding: 0px 15px 15px 15px;
+        text-align: left;
+    }
 
-main{
-    background-color: #ebebeb;
-}
+    img{
+        width: 100%;
+        
+    }
 
-main section{
-    text-align: center;
-    width: 90vw;
-    background-color: white;
-    margin: auto;
-}
+    .imagen{
+        border-bottom: 2px solid #ebebeb;
+    }
 
-article{
-    margin-bottom: 10px;
-    border-bottom: 8px solid #ebebeb;
-}
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        }
 
-article div{
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
+    .envio{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        color: #39b54a;
+        right: 20px;
+        top: -15px;
+        position: relative;
+        right: -80%;
+        top: -20px;
+        transition: 1.5s;
+        
+    }
+
+    .envio:hover{
+        transform: rotate(270deg);
+    }
+
+    .titulares{
+        font-size: 24px;
+        margin-top: 15px;
+        background-color: #ebebeb;
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+    
+    .precios {
+        font-size: 2rem;
+        text-align: left;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        width: 30%;
+        padding-left: 0%;
+    }
+    
+    .descuentos{
+    font-size: 1rem;
     text-align: left;
-}
-
-.envio{
+    margin-top: 3%;
     color: #39b54a;
-    width: 20px;
-    height: auto;
-    margin-left: 10px;
-    border: 1px solid #39b54a;
-    padding: 10px;
-    border-radius: 50%;
-    
-}
-.titulares{
-    font-size: 24px;
-    margin-top: 0%;
-}
-
-.precios {
-    font-size: 18px;
+    margin: 5px 2px 2px 0px;
+    margin-left: 8%;
     text-align: left;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.descuentos{
-font-size: 12px;
-text-align: left;
-margin-top: 1%;
-color: #39b54a;
-}
-
-.descripciones{
-    font-size: 16px;
-    text-align: left;
-}
-
-.banner{
-    width: 100vw;
-}
-
-.imagen{
-    width: 70vw;
-}
-
-footer{
-    text-align: center;
-}
-.icono{
+    padding-top: 0.8%
+    }
     
-    color: hsl(211, 84%, 47%);
-    font-size: 2em;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-}
+    .prec-desc{
+        display: flex;
+        justify-items: center;
+        padding-left: 0%;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 
-.titulo{
-    font-weight: bold;
-    font-size: 130%;
-    margin-top: 1%;
-    margin-bottom: 0%;
-}
+    .contenedor-productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-.subtitulo{
-    margin-top: 1%;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-bottom: 10%;
-    font-size: 100%;
+    .productos{
+        width: 80vw;
+    }
+
+    .productos:hover{
+        box-shadow: 10px 10px 10px rgb(35, 21, 21);
+    }
+
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        cursor: pointer;
+    }
+
+    .descripciones{
+        font-size: 16px;
+        text-align: left;
+        margin-top: 0%;
+        display: none
+    }
+
+    article:hover .descripciones{
+       display: block;
+         }
+
+    footer{
+        text-align: center;
+    }
     
-}
+    .icono{
+        
+        color: hsl(211, 84%, 47%);
+        font-size: 2em;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .titulo{
+        font-weight: bold;
+        font-size: 130%;
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+    
+    .subtitulo{
+        margin-top: 1%;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 10%;
+        font-size: 100%;
+        
+    }
+
+    
+
+    
+    @media (min-width: 376px){
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .rigth-navbar{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 70%;
+            
+        }
+
+        nav li{
+            margin-right: 6px;
+            color: black;
+        }
+
+        nav li:hover{
+            font-weight: bold;
+            
+        }
+
+        li:active{
+            color: red;
+            
+        }
+
+        .left-navbar{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 70%;
+            
+        }
+
+        .burger-menu{
+            display: none;
+        }
+        .productos{
+            width: 44vw;
+        }
+
+        .logo {
+        font-size: 1%;
+        display: block;
+    }
+
+    .lupa{
+        margin-left: 0%;
+       
+    }
+
+    .main-header{
+        align-items:center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #compraCuotas{
+        max-width: none;
+        font-size: 15px;
+        text-align: right;
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+    }
+
+
+    @media (min-width: 769px){
+        nav{
+            display: flex;
+            justify-content: space-between;
+            font-size: 2vw;
+        }
+
+        .burger-menu{
+            display: none;
+        }
+        .productos{
+            width: 22vw;
+        }
+
+        .logo {
+            width: 30vw;
+            margin-left: 0%;
+        }
+
+        #busqueda{
+            width: 35vw;
+            height: 6vh;
+        }
+        
+    
+        .main-header{
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            
+        }
+    
+        #compraCuotas{
+            width: 50vw;
+            font-size: 1em;
+            text-align: center;
+            padding-right: 5px;
+            margin-right: 5px;
+        }
+
+        .footer-section{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .subtitulo{
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 80%;
+        }
+
+        .titulo{
+            font-size: 80%;
+        }
+
+        .icono{
+            
+            transition: 1.5s;
+        }
+
+        .icono:hover{
+            color: #39b54a;
+        }
+    }

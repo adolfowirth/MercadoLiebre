@@ -1,0 +1,108 @@
+form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: lightgrey;
+    
+    border-radius: 5px;
+}
+
+form label, form legend{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 10px;
+    border-radius: 5px;
+    
+}
+
+legend h4{
+    text-align: center;
+}
+
+.fecha{
+    margin-bottom: 1%;
+}
+
+.input-padron{
+    font-size: 60%;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.perfil{
+    display: inline-block;
+    margin-top: 1%;
+    width: 5%;
+
+}
+
+.interes{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.enviar{
+    width: 20%;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: darkblue;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(58, 58, 234);
+    
+}
+
+.enviar-login{
+    width: 40%;
+    padding: 12px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: darkblue;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    }
+
+.enviar-login:hover{
+    background-color: rgb(58, 58, 234);
+}
+
+.borrar{
+    width: 20%;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: lightblue;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.borrar:hover{
+    background: lightskyblue;
+    
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
