@@ -24,7 +24,7 @@ legend h4{
 }
 
 .input-padron{
-    font-size: 60%;
+    font-size: 80%;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 40%;
@@ -35,14 +35,14 @@ legend h4{
 
 .perfil{
     display: inline-block;
-    margin-top: 1%;
+    margin-top: 2%;
     width: 5%;
 
 }
 
 .interes{
     width: 100%;
-    margin-top: 1%;
+    margin-top: 4%;
     margin-bottom: 2%;
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ legend h4{
     font-size: 14px;
     font-weight: bold;
     color: white;
-    background: lightblue;
+    background: rgb(78, 78, 218);
     border: none;
     border-radius: 5px;
     transition: 1s all;

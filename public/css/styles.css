@@ -39,6 +39,13 @@ header{
      
 }
 
+.logo-barra{
+    background-color: var(--Amarillo);
+    position: relative;
+}
+
+
+
 .icono-header{
     width: 30%;
     text-align: right;
@@ -59,8 +66,24 @@ header{
     margin-bottom: 10px;
     border-radius: 5px;
     height: 40%;
+    border: none;
+    height: 4vh;
 }
 
+::placeholder{
+    font-size: 60%;
+}
+
+.lupa{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    color: gray;
+}
+
+.search{
+    width: 100%;
+}
 
 
 
@@ -281,7 +304,7 @@ ul li{
     
 
     
-    @media (min-width: 376px){
+    @media (min-width: 426px){
         nav{
             display: flex;
             justify-content: space-between;
@@ -334,6 +357,10 @@ ul li{
        
     }
 
+    ::placeholder{
+        font-size: 70%
+    }
+
     .main-header{
         align-items:center;
         display: flex;
@@ -350,7 +377,7 @@ ul li{
     }
 
 
-    @media (min-width: 769px){
+    @media (min-width: 767px){
         nav{
             display: flex;
             justify-content: space-between;
@@ -370,10 +397,18 @@ ul li{
         }
 
         #busqueda{
-            width: 35vw;
-            height: 6vh;
+            width: 30vw;
+            height: 4vh;
         }
-        
+
+        ::placeholder{
+            font-size: 90%
+        }
+        .lupa{
+            position: absolute;
+            right: 12px;
+            top: 37px;
+        }
     
         .main-header{
             display: flex;
@@ -383,7 +418,7 @@ ul li{
         }
     
         #compraCuotas{
-            width: 50vw;
+            width: 30vw;
             font-size: 1em;
             text-align: center;
             padding-right: 5px;
