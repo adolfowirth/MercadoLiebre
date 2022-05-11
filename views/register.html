@@ -57,32 +57,33 @@
             <form action="/register" method="post">
                 <div>
                     <label for="nombre"></label>
-                    <input type="text" id="nombre" name="nombre" class="input-padron" placeholder="Nombre y Apellido">
+                    <input type="text" id="nombre" name="nombre" class="input-padron" placeholder="Nombre y Apellido" required>
                 </div>
 
                 <div>
                     <label for="nombre-usuario"></label>
-                    <input type="text" id="nombre-usuario" name="nombre-usuario" class="input-padron" placeholder="Nombre de Usuari@">
+                    <input type="text" id="nombre-usuario" name="nombre-usuario" class="input-padron" placeholder="Nombre de Usuari@" required>
                 </div>
 
                 <div>
                     <h6 class="fecha">Fecha de Nacimiento</h6>
                     <label for="fecha-nacimiento"></label>
-                    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" class="input-padron">
+                    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" class="input-padron" required>
                 </div>
 
                 <div>
                     <label for="domicilio"></label>
-                    <input type="text" id="domicilio" name="domicilio" class="input-padron" placeholder="Domicilio">
+                    <input type="text" id="domicilio" name="domicilio" class="input-padron" placeholder="Domicilio" required>
                 </div>
 
-                    <div>
+                    <div class="perfil-usuario">
                     
                        
-                        <label for="perfil"><h4>Perfil del Usuario</h4></label>
+                        <label for="perfil"><h4 class="perfil-titulo">Perfil del Usuario</h4></label>
+                        <div class="disco">
                         <label for="comprar"><input type="radio" name="perfil" value="Comprador" id="comprar" class="perfil">Comprador</label>
                         <label for="vender"><input type="radio" name="perfil" value="Vendedor" id="vender" class="perfil">Vendedor</label>
-                        
+                        </div>
                     
                     </div>
 
@@ -102,24 +103,24 @@
 
                 </div>
 
-                <div cla>
+                <div class="foto">
                     <label for="foto"><h4>Foto del Usuario</h4></label>
-                    <input type="file" name="foto" id="foto" class="input-padron">
+                    <input type="file" name="foto" id="foto" class="input-padron-foto">
                 </div>
 
                 <div>
                     <label for="password"></label>
-                    <input type="password" id="password" name="password" class="input-padron" placeholder="Contraseña">
+                    <input type="password" id="password" name="password" class="input-padron" placeholder="Contraseña" required>
                 </div>
 
                 <div>
                     <label for="confirm-password"></label>
-                    <input type="password" id="confirm-password" name="confirm-password" class="input-padron" placeholder="Confirmar Contraseña">
+                    <input type="password" id="confirm-password" name="confirm-password" class="input-padron" placeholder="Confirmar Contraseña" required>
                 </div>
 
                 <div class="boton">
                 <button type="submit" class="enviar">Enviar</button>
-                <button type="reset" class="borrar">Borrar formulario</button>
+                <button type="reset" class="borrar">Borrar</button>
                 </div>
             </form>
            

@@ -3,8 +3,8 @@
 
 *{
     font-family: 'Roboto Slab', serif;
-    margin: 0%;
 
+    
 }
 
 *{
@@ -350,6 +350,7 @@ ul li{
         .logo {
         font-size: 1%;
         display: block;
+        margin-left: 5%;
     }
 
     .lupa{
@@ -393,7 +394,7 @@ ul li{
 
         .logo {
             width: 30vw;
-            margin-left: 0%;
+            margin-left: 5%;
         }
 
         #busqueda{
